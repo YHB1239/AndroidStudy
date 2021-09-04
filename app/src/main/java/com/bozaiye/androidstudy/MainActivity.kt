@@ -19,5 +19,9 @@ class MainActivity : AppCompatActivity() {
         binding.btView.setOnClickListener {
             JumpUtil.goToActivity(this, TouchViewMoveActivity::class.java)
         }
+
+        binding.btAnimal.setOnClickListener {
+            JumpUtil.goToActivity(this, AnimalTestActivity::class.java)
+        }
     }
 }
