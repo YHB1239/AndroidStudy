@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    tools:context=".ScollerFragment">
+    tools:context=".view_study.view_move.ScollerFragment">
 
     <TextView
         android:id="@+id/tvClose"
@@ -15,7 +15,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 
-    <com.bozaiye.androidstudy.view.MyViewPager
+    <com.bozaiye.androidstudy.view_study.view_move.MyViewPager
         android:layout_gravity="center"
         android:layout_width="match_parent"
         android:layout_height="200dp">
@@ -39,6 +39,6 @@
             android:src="@drawable/icon_tour_background"
             android:layout_width="300dp"
             android:layout_height="match_parent"/>
-    </com.bozaiye.androidstudy.view.MyViewPager>
+    </com.bozaiye.androidstudy.view_study.view_move.MyViewPager>
 
 </FrameLayout>

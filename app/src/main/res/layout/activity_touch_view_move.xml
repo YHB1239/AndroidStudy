@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".TouchViewMoveActivity">
+    tools:context=".view_study.view_move.TouchViewMoveActivity">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolBar"
@@ -20,7 +20,7 @@
             android:textColor="@color/white" />
     </androidx.appcompat.widget.Toolbar>
 
-    <com.bozaiye.androidstudy.view.TouchMoveView
+    <com.bozaiye.androidstudy.view_study.view_move.TouchMoveView
         android:id="@+id/touchMoveView"
         android:layout_width="100dp"
         android:layout_height="100dp"

@@ -1,4 +1,4 @@
-package com.bozaiye.androidstudy.view
+package com.bozaiye.androidstudy.view_study.view_move
 
 import android.content.Context
 import android.util.AttributeSet

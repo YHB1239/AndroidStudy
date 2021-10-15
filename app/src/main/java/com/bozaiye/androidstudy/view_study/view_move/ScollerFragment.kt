@@ -1,10 +1,11 @@
-package com.bozaiye.androidstudy
+package com.bozaiye.androidstudy.view_study.view_move
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.bozaiye.androidstudy.R
 import com.bozaiye.androidstudy.databinding.FragmentScollerBinding
 import com.bozaiye.androidstudy.utils.bindView
 

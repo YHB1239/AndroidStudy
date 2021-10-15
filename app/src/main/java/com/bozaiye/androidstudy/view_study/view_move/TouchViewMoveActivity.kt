@@ -1,11 +1,11 @@
-package com.bozaiye.androidstudy
+package com.bozaiye.androidstudy.view_study.view_move
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import com.bozaiye.androidstudy.R
 import com.bozaiye.androidstudy.databinding.ActivityTouchViewMoveBinding
 import com.bozaiye.androidstudy.utils.inflate
-import com.bozaiye.androidstudy.view.TouchMoveView
 
 class TouchViewMoveActivity : AppCompatActivity() {
     private val binding: ActivityTouchViewMoveBinding by inflate()
@@ -51,8 +51,13 @@ class TouchViewMoveActivity : AppCompatActivity() {
     }
 
     private fun scrollerTest() {
-        val scrollerFragment = ScollerFragment.newInstance("null", "null")
-        scrollerFragment.setClosePageListener(object : ScollerFragment.ClosePageListener{
+        val scrollerFragment =
+            ScollerFragment.newInstance(
+                "null",
+                "null"
+            )
+        scrollerFragment.setClosePageListener(object :
+            ScollerFragment.ClosePageListener {
             override fun closePage() {
                 binding.fragmentParent.visibility = View.GONE
             }

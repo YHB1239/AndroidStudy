@@ -2,10 +2,11 @@ package com.bozaiye.androidstudy
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
 import com.bozaiye.androidstudy.databinding.ActivityMainBinding
 import com.bozaiye.androidstudy.utils.JumpUtil
 import com.bozaiye.androidstudy.utils.inflate
+import com.bozaiye.androidstudy.view_study.view_anim.AnimLearnActivity
+import com.bozaiye.androidstudy.view_study.view_move.TouchViewMoveActivity
 
 class MainActivity : AppCompatActivity() {
     private val binding: ActivityMainBinding by inflate()
@@ -21,7 +22,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         binding.btAnimal.setOnClickListener {
-            JumpUtil.goToActivity(this, AnimalTestActivity::class.java)
+            JumpUtil.goToActivity(this, AnimLearnActivity::class.java)
         }
     }
 }
